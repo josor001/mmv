@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="SimpleDiagramTest" time="0.354" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="gopherProxySet" value="false"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/jonas/dev/phd-code-hmmm/mmv/target/test-classes:/Users/jonas/dev/phd-code-hmmm/mmv/target/classes:/Users/jonas/.m2/repository/de/fhdo/hmmm/utility/modelCore/0.1/modelCore-0.1.jar:/Users/jonas/.m2/repository/net/sourceforge/plantuml/plantuml/1.2022.6/plantuml-1.2022.6.jar:/Users/jonas/.m2/repository/guru/nidi/graphviz-java/0.18.1/graphviz-java-0.18.1.jar:/Users/jonas/.m2/repository/org/webjars/npm/viz.js-graphviz-java/2.1.3/viz.js-graphviz-java-2.1.3.jar:/Users/jonas/.m2/repository/guru/nidi/com/kitfox/svgSalamander/1.1.3/svgSalamander-1.1.3.jar:/Users/jonas/.m2/repository/net/arnx/nashorn-promise/0.1.1/nashorn-promise-0.1.1.jar:/Users/jonas/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jonas/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/jonas/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/jonas/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar:/Users/jonas/.m2/repository/guru/nidi/com/eclipsesource/j2v8/j2v8_macosx_x86_64/4.6.0/j2v8_macosx_x86_64-4.6.0.jar:/Users/jonas/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/jonas/.m2/repository/org/jgrapht/jgrapht-core/1.5.1/jgrapht-core-1.5.1.jar:/Users/jonas/.m2/repository/org/jheaps/jheaps/0.13/jheaps-0.13.jar:/Users/jonas/.m2/repository/org/jgrapht/jgrapht-ext/1.5.1/jgrapht-ext-1.5.1.jar:/Users/jonas/.m2/repository/com/github/vlsi/mxgraph/jgraphx/4.1.0/jgraphx-4.1.0.jar:/Users/jonas/.m2/repository/org/jgrapht/jgrapht-io/1.5.1/jgrapht-io-1.5.1.jar:/Users/jonas/.m2/repository/org/antlr/antlr4-runtime/4.8-1/antlr4-runtime-4.8-1.jar:/Users/jonas/.m2/repository/org/apache/commons/commons-text/1.8/commons-text-1.8.jar:/Users/jonas/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/Users/jonas/.m2/repository/org/jetbrains/kotlin/kotlin-test-junit5/1.7.10/kotlin-test-junit5-1.7.10.jar:/Users/jonas/.m2/repository/org/jetbrains/kotlin/kotlin-test/1.7.10/kotlin-test-1.7.10.jar:/Users/jonas/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/jonas/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/jonas/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/jonas/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/jonas/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/jonas/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:/Users/jonas/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/Users/jonas/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/Users/jonas/.m2/repository/ch/qos/logback/logback-classic/1.3.0-alpha16/logback-classic-1.3.0-alpha16.jar:/Users/jonas/.m2/repository/ch/qos/logback/logback-core/1.3.0-alpha16/logback-core-1.3.0-alpha16.jar:/Users/jonas/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.7.10/kotlin-stdlib-jdk8-1.7.10.jar:/Users/jonas/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.7.10/kotlin-stdlib-1.7.10.jar:/Users/jonas/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.7.10/kotlin-stdlib-common-1.7.10.jar:/Users/jonas/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/jonas/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.7.10/kotlin-stdlib-jdk7-1.7.10.jar:"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value=""/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="DE"/>
+    <property name="sun.boot.library.path" value="/usr/local/Cellar/openjdk@11/11.0.15/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/jonas/dev/phd-code-hmmm/mmv/target/surefire/surefirebooter11114102632070579496.jar /Users/jonas/dev/phd-code-hmmm/mmv/target/surefire 2022-07-25T18-58-02_405-jvmRun1 surefire17339888301338644980tmp surefire_06878251216556200970tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/jonas/dev/phd-code-hmmm/mmv/target/test-classes:/Users/jonas/dev/phd-code-hmmm/mmv/target/classes:/Users/jonas/.m2/repository/de/fhdo/hmmm/utility/modelCore/0.1/modelCore-0.1.jar:/Users/jonas/.m2/repository/net/sourceforge/plantuml/plantuml/1.2022.6/plantuml-1.2022.6.jar:/Users/jonas/.m2/repository/guru/nidi/graphviz-java/0.18.1/graphviz-java-0.18.1.jar:/Users/jonas/.m2/repository/org/webjars/npm/viz.js-graphviz-java/2.1.3/viz.js-graphviz-java-2.1.3.jar:/Users/jonas/.m2/repository/guru/nidi/com/kitfox/svgSalamander/1.1.3/svgSalamander-1.1.3.jar:/Users/jonas/.m2/repository/net/arnx/nashorn-promise/0.1.1/nashorn-promise-0.1.1.jar:/Users/jonas/.m2/repository/org/apache/commons/commons-exec/1.3/commons-exec-1.3.jar:/Users/jonas/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/jonas/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/jonas/.m2/repository/org/slf4j/jul-to-slf4j/1.7.30/jul-to-slf4j-1.7.30.jar:/Users/jonas/.m2/repository/guru/nidi/com/eclipsesource/j2v8/j2v8_macosx_x86_64/4.6.0/j2v8_macosx_x86_64-4.6.0.jar:/Users/jonas/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar:/Users/jonas/.m2/repository/org/jgrapht/jgrapht-core/1.5.1/jgrapht-core-1.5.1.jar:/Users/jonas/.m2/repository/org/jheaps/jheaps/0.13/jheaps-0.13.jar:/Users/jonas/.m2/repository/org/jgrapht/jgrapht-ext/1.5.1/jgrapht-ext-1.5.1.jar:/Users/jonas/.m2/repository/com/github/vlsi/mxgraph/jgraphx/4.1.0/jgraphx-4.1.0.jar:/Users/jonas/.m2/repository/org/jgrapht/jgrapht-io/1.5.1/jgrapht-io-1.5.1.jar:/Users/jonas/.m2/repository/org/antlr/antlr4-runtime/4.8-1/antlr4-runtime-4.8-1.jar:/Users/jonas/.m2/repository/org/apache/commons/commons-text/1.8/commons-text-1.8.jar:/Users/jonas/.m2/repository/org/apache/commons/commons-lang3/3.9/commons-lang3-3.9.jar:/Users/jonas/.m2/repository/org/jetbrains/kotlin/kotlin-test-junit5/1.7.10/kotlin-test-junit5-1.7.10.jar:/Users/jonas/.m2/repository/org/jetbrains/kotlin/kotlin-test/1.7.10/kotlin-test-1.7.10.jar:/Users/jonas/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.6.0/junit-jupiter-api-5.6.0.jar:/Users/jonas/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/jonas/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/jonas/.m2/repository/org/junit/platform/junit-platform-commons/1.6.0/junit-platform-commons-1.6.0.jar:/Users/jonas/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.6.0/junit-jupiter-engine-5.6.0.jar:/Users/jonas/.m2/repository/org/junit/platform/junit-platform-engine/1.6.0/junit-platform-engine-1.6.0.jar:/Users/jonas/.m2/repository/org/junit/jupiter/junit-jupiter/5.8.2/junit-jupiter-5.8.2.jar:/Users/jonas/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.8.2/junit-jupiter-params-5.8.2.jar:/Users/jonas/.m2/repository/ch/qos/logback/logback-classic/1.3.0-alpha16/logback-classic-1.3.0-alpha16.jar:/Users/jonas/.m2/repository/ch/qos/logback/logback-core/1.3.0-alpha16/logback-core-1.3.0-alpha16.jar:/Users/jonas/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk8/1.7.10/kotlin-stdlib-jdk8-1.7.10.jar:/Users/jonas/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib/1.7.10/kotlin-stdlib-1.7.10.jar:/Users/jonas/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-common/1.7.10/kotlin-stdlib-common-1.7.10.jar:/Users/jonas/.m2/repository/org/jetbrains/annotations/13.0/annotations-13.0.jar:/Users/jonas/.m2/repository/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.7.10/kotlin-stdlib-jdk7-1.7.10.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/jonas"/>
+    <property name="user.language" value="de"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2022-04-19"/>
+    <property name="java.home" value="/usr/local/Cellar/openjdk@11/11.0.15/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/jonas/dev/phd-code-hmmm/mmv"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="/Users/jonas/dev/phd-code-hmmm/mmv/target/surefire/surefirebooter11114102632070579496.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="11.0.15+0"/>
+    <property name="user.name" value="jonas"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="12.4"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/jonas/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/7x/8pgss7p55_d8_c0_k5tq8lvc0000gn/T/"/>
+    <property name="idea.version" value="2021.2.3"/>
+    <property name="java.version" value="11.0.15"/>
+    <property name="user.dir" value="/Users/jonas/dev/phd-code-hmmm/mmv"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.library.path" value="/Users/jonas/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="11.0.15+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+  </properties>
+  <testcase name="visualize" classname="SimpleDiagramTest" time="0.351"/>
+</testsuite>
