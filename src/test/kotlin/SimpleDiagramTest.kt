@@ -27,15 +27,16 @@ internal class SimpleDiagramTest {
     @BeforeEach
     fun setup() {
         // Build example system
-        val testSystem = System("MySystem")
+        val testSystem = SystemFragment("MySystem")
+        val teamA = Team("Team A")
 
-        val testMicroservice = Microservice("My Microservice")
+        val testMicroservice = Microservice("My Microservice", teamA)
         testMicroservice.technology = null
 
-        val testMicroservice2 = Microservice("Another Microservice")
+        val testMicroservice2 = Microservice("Another Microservice", teamA)
         testMicroservice2.technology = null
 
-        val testMicroservice3 = Microservice("Yet Another Microservice")
+        val testMicroservice3 = Microservice("Yet Another Microservice", teamA)
         testMicroservice3.technology = null
 
         val testInterface = Interface("MyInterface", testMicroservice)

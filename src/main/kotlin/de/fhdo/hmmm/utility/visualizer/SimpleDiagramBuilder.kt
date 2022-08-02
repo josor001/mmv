@@ -1,7 +1,7 @@
 package de.fhdo.hmmm.utility.visualizer
 
 import de.fhdo.hmmm.utility.model.Microservice
-import de.fhdo.hmmm.utility.model.System
+import de.fhdo.hmmm.utility.model.SystemFragment
 import guru.nidi.graphviz.engine.Format
 import guru.nidi.graphviz.engine.Graphviz
 import guru.nidi.graphviz.model.MutableGraph
@@ -19,8 +19,8 @@ import java.io.Writer
 
 
 /**
- * This class is responsible to create a **graph-based diagram** based on a given [System].
- * For each [Microservice] in the [System] the a vertex is generated.
+ * This class is responsible to create a **graph-based diagram** based on a given [SystemFragment].
+ * For each [Microservice] in the [SystemFragment] the a vertex is generated.
  * Contracts are depicted as edges between vertices.
  *
  * The generate the graph, **JgraphT** as well as **GraphViz** are used.
@@ -37,14 +37,14 @@ import java.io.Writer
  * @author Jonas Sorgalla
  */
 class SimpleDiagram private constructor(
-    val system: System?,
+    val system: SystemFragment?,
     val format: EOutputFormat?
 ) : IDiagram {
     data class Builder(
-        internal var system: System? = null,
+        internal var system: SystemFragment? = null,
         var format: EOutputFormat? = null
     ) {
-        fun system(system: System) = apply { this.system = system }
+        fun system(system: SystemFragment) = apply { this.system = system }
         fun outputFormat(EOutputFormat: EOutputFormat) = apply { this.format = EOutputFormat }
         fun build() = SimpleDiagram(system, format)
     }

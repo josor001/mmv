@@ -18,8 +18,8 @@ enum class UmlDiagramType {
 }
 
 /**
- * This class is responsible to create a **UML component diagram** based on a given [System].
- * For each [Microservice] in the [System] the textual **PlantUML** notation is additively generated.
+ * This class is responsible to create a **UML component diagram** based on a given [SystemFragment].
+ * For each [Microservice] in the [SystemFragment] the textual **PlantUML** notation is additively generated.
  * The complete string is transformed to a diagram graphic with the mechanism provided by PlantUML.
  * *PlantUML requires GraphViz installed on the executing system.*
  *
@@ -35,16 +35,16 @@ enum class UmlDiagramType {
  * @author Jonas Sorgalla
  */
 class UmlDiagram private constructor(
-    val system: System?,
+    val system: SystemFragment?,
     val type: UmlDiagramType?,
     val format: EOutputFormat?
 ) : IDiagram {
     data class Builder(
-        var system: System? = null,
+        var system: SystemFragment? = null,
         var type: UmlDiagramType? = null,
         var format: EOutputFormat? = null
     ) {
-        fun system(system: System) = apply { this.system = system }
+        fun system(system: SystemFragment) = apply { this.system = system }
         fun type(type: UmlDiagramType) = apply { this.type = type }
         fun outputFormat(EOutputFormat: EOutputFormat) = apply { this.format = EOutputFormat }
         fun build(): UmlDiagram = UmlDiagram(system, type, format)
@@ -54,7 +54,7 @@ class UmlDiagram private constructor(
 
     /**
      * Builds a PlantUML component diagram calling the corresponding *stringify* methods for all objects
-     * in the given [System]. If [system], [type], or [format] is not set it throws an [Exception].
+     * in the given [SystemFragment]. If [SystemFragment], [type], or [format] is not set it throws an [Exception].
      *
      * @param file - the file where the generated image is persisted.
      */

@@ -28,12 +28,13 @@ internal class UmlDiagramTest {
     @BeforeEach
     internal fun setUp() {
         // Build example system
-        val testSystem = System("MySystem")
+        val testSystem = SystemFragment("MySystem")
+        val teamA = Team("Team A")
 
-        val testMicroservice = Microservice("My Microservice")
+        val testMicroservice = Microservice("My Microservice", teamA)
         testMicroservice.technology = null
 
-        val testMicroservice2 = Microservice("Another Microservice")
+        val testMicroservice2 = Microservice("Another Microservice", teamA)
         testMicroservice2.technology = null
 
         val testInterface = Interface("MyInterface", testMicroservice)
@@ -80,7 +81,7 @@ internal class UmlDiagramTest {
 
     @Test
     fun visualizeWithInvalidContract() {
-        val testService = Microservice("test")
+        val testService = Microservice("test", Team("Team B"))
         testUmlDiagram.system!!.contracts.add(Contract(Interface("", testService), testService))
 
         assertThrows(Exception::class.java) {
