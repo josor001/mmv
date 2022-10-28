@@ -30,7 +30,7 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="Maven: de.fhdo.hmmm.utility:modelCore:0.2" level="project" />
+    <orderEntry type="library" name="Maven: de.fhdo.hmmm.utility:modelcore:0.2" level="project" />
     <orderEntry type="library" name="Maven: net.sourceforge.plantuml:plantuml:1.2022.6" level="project" />
     <orderEntry type="library" name="Maven: guru.nidi:graphviz-java:0.18.1" level="project" />
     <orderEntry type="library" name="Maven: org.webjars.npm:viz.js-graphviz-java:2.1.3" level="project" />

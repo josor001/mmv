@@ -41,7 +41,7 @@ internal class SimpleDiagramTest {
 
         val testInterface = Interface("MyInterface", testMicroservice)
         testInterface.endpoint = "TestEndpoint"
-        testInterface.communicationType = null
+        testInterface.comm = null
 
         val testOperation1 = Operation("MyOperation1")
         testOperation1.returnValue = "String"

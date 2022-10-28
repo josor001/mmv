@@ -37,9 +37,12 @@ internal class UmlDiagramTest {
         val testMicroservice2 = Microservice("Another Microservice", teamA)
         testMicroservice2.technology = null
 
+        val testMicroservice3 = Microservice("A New Microservice", teamA)
+        testMicroservice3.technology = null
+
         val testInterface = Interface("MyInterface", testMicroservice)
         testInterface.endpoint = "TestEndpoint"
-        testInterface.communicationType = null
+        testInterface.comm = null
 
         val testOperation1 = Operation("MyOperation1")
         testOperation1.returnValue = "String"
@@ -57,7 +60,9 @@ internal class UmlDiagramTest {
 
         testSystem.microservices.add(testMicroservice)
         testSystem.microservices.add(testMicroservice2)
+        testSystem.microservices.add(testMicroservice3)
         testSystem.contracts.add(Contract(testInterface, testMicroservice2))
+        testSystem.contracts.add(Contract(testInterface, testMicroservice3))
 
         // Build UmlDiagram
         testUmlDiagram = UmlDiagram.Builder()

@@ -130,7 +130,7 @@ class UmlDiagram private constructor(
     private fun stringifyInterface(i: Interface): String {
         return "interface ${i.name.toAlias()} {\n" +
                 (if (!i.endpoint.isNullOrEmpty()) "endpoint = ${i.endpoint}\n" else "") +
-                (if (!i.communicationType.isNullOrEmpty()) "communicationType = ${i.communicationType}\n" else "") +
+                (if (i.comm != null) "communicationPattern = ${i.comm}\n" else "") +
                 i.operations.joinToString(separator = "\n", transform = { it -> stringifyOperation(it) }) + "\n" +
                 "}\n"
     }
